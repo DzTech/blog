@@ -23,7 +23,6 @@ defaultContentLanguage = "en"
 	env = "production"
 [languages]
   [languages.ar]
-  	contentDir = "content/arabic"
     languagedirection = "rtl"
     title = "مدونة ديزاد تاك"
     weight = 2
@@ -43,11 +42,9 @@ defaultContentLanguage = "en"
 	    url = "/CS/"
 	    weight = -160
   [languages.en]
-  	contentDir = "content/english"
     title = "DzTech Blog"
     weight = 1
   [languages.fr]
-  	contentDir = "content/french"
     title = "DzTech Blogue"
     weight = 2
 	[languages.fr.menu]
