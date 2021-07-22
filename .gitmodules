@@ -1,0 +1,4 @@
+[submodule "dztechblog/public"]
+	path = dztechblog/public
+	url = https://github.com/DzTech/dztech.github.io.git
+	branch = main

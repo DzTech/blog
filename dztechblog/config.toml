@@ -1,0 +1,70 @@
+baseURL = "https://dztech.github.io/"
+languageCode = "en-us"
+title = "DzTech Blog"
+theme="PaperMod"
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about us"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Math"
+    url = "/Math/"
+    weight = -120
+  [[menu.main]]
+    name = "Computer Science"
+    url = "/CS/"
+    weight = -130
+defaultContentLanguage = "en"
+[params]
+	env = "production"
+[languages]
+  [languages.ar]
+  	contentDir = "content/arabic"
+    languagedirection = "rtl"
+    title = "مدونة ديزاد تاك"
+    weight = 2
+    [languages.ar.menu]
+	   [[languages.ar.menu.main]]
+	    identifier = "about"
+	    name = "about us"
+	    url = "/about/"
+	    weight = -140
+
+	  [[languages.ar.menu.main]]
+	    name = "رياضيات"
+	    url = "/Math/"
+	    weight = -150
+	  [[languages.ar.menu.main]]
+	    name = "اعلام الي"
+	    url = "/CS/"
+	    weight = -160
+  [languages.en]
+  	contentDir = "content/english"
+    title = "DzTech Blog"
+    weight = 1
+  [languages.fr]
+  	contentDir = "content/french"
+    title = "DzTech Blogue"
+    weight = 2
+	[languages.fr.menu]
+	   [[languages.fr.menu.main]]
+	    identifier = "about"
+	    name = "about us"
+	    url = "/about/"
+	    weight = -170
+
+	  [[languages.fr.menu.main]]
+	    name = "Mathématiques"
+	    url = "/Math/"
+	    weight = -180
+	  [[languages.fr.menu.main]]
+	    name = "Informatique"
+	    url = "/CS/"
+	    weight = -190
+  
+
+
